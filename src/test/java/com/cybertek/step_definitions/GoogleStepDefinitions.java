@@ -3,6 +3,7 @@ package com.cybertek.step_definitions;
 import com.cybertek.utilities.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import org.junit.Assert;
 
 public class GoogleStepDefinitions {
@@ -23,5 +24,17 @@ public class GoogleStepDefinitions {
 
         Assert.assertEquals("Actual title does not match expected title!",actualTitle,expectedTitle);
 
+    }
+
+    @Given("User is on the Google search page")
+    public void userIsOnTheGoogleSearchPage() {
+    }
+
+    @When("User search apple")
+    public void userSearchApple() {
+    }
+
+    @Then("User should see apple in  the title")
+    public void userShouldSeeAppleInTheTitle() {
     }
 }
