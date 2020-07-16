@@ -9,8 +9,8 @@ public class GoogleStepDefinitions {
     @Given("user is on the google search page")
     public void user_is_on_the_google_search_page() {
 
-        Assert.fail("Unpurpose failing here!!!");
-        Driver.getDriver().get("https://www.google.com");
+//        Assert.fail("Unpurpose failing here!!!");
+//        Driver.getDriver().get("https://www.google.com");
 
 
     }
