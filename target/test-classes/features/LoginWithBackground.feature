@@ -15,7 +15,7 @@ Background: Back story User is on the login page
   Scenario: Student login scenario
     When User logs in as student
     Then  User should see dashboard
-
+@db
   Scenario: Admin login scenario
     When User logs in as admin
     Then User should see dashboard
