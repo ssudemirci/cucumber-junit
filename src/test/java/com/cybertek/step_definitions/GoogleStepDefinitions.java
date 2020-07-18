@@ -106,6 +106,7 @@ public class GoogleStepDefinitions {
 //            System.out.println("each.getText() = " + each.getText());
 //
 //        }
+        System.out.println("linkStrings = " + linkStrings);
         Assert.assertEquals(actualSize,expectedSize);
 
 
