@@ -41,8 +41,9 @@ public class WikiStepDefinitions {
     }
 
     @Then("User should see {string} in the image header")
-    public void userShouldSeeInTheImageHeader(String expectedHeader) {
+    public void userShouldSeeInTheImageHeader(String expectedHeader) throws InterruptedException {
         String actualHeader = wikiSearchPage.imgHeaderAfterSearch.getText();
+        Thread.sleep(2000);
         Assert.assertEquals(actualHeader, expectedHeader);
     }
 }
