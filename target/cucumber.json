@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6768000000,
+              "duration": 5203000000,
               "status": "passed"
             },
             "before": [
@@ -32,7 +32,6 @@
             "after": [
               {
                 "result": {
-                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -45,11 +44,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-07-21T15:49:48.262Z",
+        "start_timestamp": "2020-07-21T15:59:44.114Z",
         "before": [
           {
             "result": {
-              "duration": 12000000,
+              "duration": 4000000,
               "status": "passed"
             },
             "match": {
@@ -71,7 +70,7 @@
               }
             ],
             "result": {
-              "duration": 680000000,
+              "duration": 607000000,
               "status": "passed"
             },
             "match": {
@@ -84,7 +83,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3198000000,
+              "duration": 2571000000,
               "status": "passed"
             },
             "before": [
@@ -123,13 +122,13 @@
           {
             "result": {
               "error_message": "org.junit.ComparisonFailure: expected:\u003c[Steve Jobs]\u003e but was:\u003c[selcuk]\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat com.cybertek.step_definitions.WikiStepDefinitions.userShouldSeeInTheMainHeader(WikiStepDefinitions.java:40)\n\tat ✽.User should see \"selcuk\" in the main header(file:///Users/selcuksudemirci/Desktop/cybertek18-cucumber-junit/src/test/resources/features/WikiSearch.feature:14)\n",
-              "duration": 665000000,
+              "duration": 90000000,
               "status": "failed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1000000,
+                  "duration": 2000000,
                   "status": "passed"
                 },
                 "match": {
@@ -151,6 +150,7 @@
             "after": [
               {
                 "result": {
+                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
