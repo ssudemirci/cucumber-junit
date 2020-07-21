@@ -11,7 +11,7 @@ Feature: wiki title and search verification
   @wiki
   Scenario: Search functionality title verification
     When User searches "Steve Jobs" in the  wiki search page
-    Then User should see "Steve Jobs" in the main header
+    Then User should see "selcuk" in the main header
   @wikiScenarioOutline
   Scenario Outline: Search functionality title verification
     When User searches "<searchValue>" in the  wiki search page
