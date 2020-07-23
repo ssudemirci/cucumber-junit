@@ -1,3 +1,4 @@
+@wiki
 Feature: wiki title and search verification
 
   Background: User is on the Wiki home page
@@ -8,10 +9,10 @@ Feature: wiki title and search verification
     Then User should see "Steve Jobs" in the wiki title
 
 
-  @wiki
+
   Scenario: Search functionality title verification
     When User searches "Steve Jobs" in the  wiki search page
-    Then User should see "selcuk" in the main header
+    Then User should see "Steve Jobs" in the main header
   @wikiScenarioOutline
   Scenario Outline: Search functionality title verification
     When User searches "<searchValue>" in the  wiki search page

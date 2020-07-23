@@ -42,7 +42,7 @@ EtsySearchPage etsySearchPage=new EtsySearchPage();
 
     @Then("User should see {string} in the etsy title")
     public void userShouldSeeInTheEtsyTitle(String expectedInTitle) {
-        String actualTitle=Driver.getDriver().getTitle();
+        String actualTitle= Driver.getDriver().getTitle();
         Assert.assertTrue(actualTitle.contains(expectedInTitle));
     }
 }
